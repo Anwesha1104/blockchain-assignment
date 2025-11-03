@@ -1,0 +1,73 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_393": {
+					"entryPoint": null,
+					"id": 393,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600e575f5ffd5b5060015f81905550603e8060215f395ff3fe60806040525f5ffdfea2646970667358221220c2d5ae4e599b8bc53dae62d34a1f536c70ec74b03888fe43931b561477a47b0764736f6c634300081e0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x1 PUSH0 DUP2 SWAP1 SSTORE POP PUSH1 0x3E DUP1 PUSH1 0x21 PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC2 0xD5 0xAE 0x4E MSIZE SWAP12 DUP12 0xC5 RETURNDATASIZE 0xAE PUSH3 0xD34A1F MSTORE8 PUSH13 0x70EC74B03888FE43931B561477 LOG4 PUSH28 0x764736F6C634300081E003300000000000000000000000000000000 ",
+			"sourceMap": "5733:269:0:-:0;;;5795:63;;;;;;;;;;5830:1;5820:7;:11;;;;5733:269;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f5ffdfea2646970667358221220c2d5ae4e599b8bc53dae62d34a1f536c70ec74b03888fe43931b561477a47b0764736f6c634300081e0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC2 0xD5 0xAE 0x4E MSIZE SWAP12 DUP12 0xC5 RETURNDATASIZE 0xAE PUSH3 0xD34A1F MSTORE8 PUSH13 0x70EC74B03888FE43931B561477 LOG4 PUSH28 0x764736F6C634300081E003300000000000000000000000000000000 ",
+			"sourceMap": "5733:269:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "22177",
+				"totalCost": "34577"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		}
+	]
+}

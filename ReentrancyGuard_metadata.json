@@ -1,0 +1,52 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "--------------------------------------------------------------------- REENTRANCY GUARD (for SecureBank) ---------------------------------------------------------------------",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Layer2SecurityDemo.sol": "ReentrancyGuard"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Layer2SecurityDemo.sol": {
+			"keccak256": "0x18551e245bc3a922a8a5c931470d5db268c04e3bba8318ae083af8f346aef95d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8e4cc32c1962df2165db047e64a249d7d72f4bf3f0bdae8fd674f124448a50bc",
+				"dweb:/ipfs/QmQd8px6HK6qLu6UyHFEtXtqaFQrFBpqwiE1PSBZoHUYjS"
+			]
+		}
+	},
+	"version": 1
+}
